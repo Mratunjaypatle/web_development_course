@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        div {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="action.php">
+
+            <table width="500">
+                <tr>
+                    <td>Username</td>
+                    <td> <input type="text" placeholder="username" required> </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="password" required></td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td> <input type="email" required> </td>
+                </tr>
+                <tr>
+                    <td> <button>Submit</button> </td>
+                </tr>
+            </table>
+
+        </form>
+
+        <form action="">
+            <h3>Label Tag</h3>
+            <label for="username"> Enter the username </label>
+            <input type="text" id="username"> <br><br>
+            <label for="password">Enter the password</label>
+            <input type="password" id="password">
+            <br><br>
+            <input type="checkbox" id="checkbox required">
+            <label for="checkbox">I agree with all details what i am sharing..</label> <br><br>
+            <label for="Designation">Your Designation :- </label>
+            <select id="Designation">
+                <option value="">Your Designation</option>
+                <option value="">Student</option>
+                <option value="">Employee</option>
+                <option value="">HR</option>
+                <option value="">Manager</option>
+                <option value="">Peon</option>
+            </select> <br><br>
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

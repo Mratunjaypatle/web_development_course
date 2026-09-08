@@ -1,0 +1,17 @@
+body {
+    background-color: palevioletred;
+}
+
+div {
+    color: black;
+    background-color: bisque;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border: 15px groove black;
+}
+
+div h1 {
+    color: blue;
+}
+ 
