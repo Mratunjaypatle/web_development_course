@@ -1,0 +1,53 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+body {
+    background-color: rgb(139, 185, 185);
+}
+
+.upvote
+
+/* class selector */
+    {
+    background-color: green;
+    color: white;
+}
+
+.answer {
+    background-color: rgb(143, 46, 137);
+    color: aqua;
+}
+
+div input {
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+a {
+    color: rgb(0, 0, 221);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div button
+{
+    background-color: brown;
+    color: white;
+}
+
+footer button
+{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+h3
+{
+    background-color: rgb(57, 108, 139);
+    color: aliceblue;
+}

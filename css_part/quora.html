@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quora.css">
+    <title>Quora</title>
+</head>
+<!-- 
+    Including all selectors in it's CSS file and also included psuedo classes
+-->
+
+<body>
+    <header>
+        <h1>Quora</h1>
+        <form>
+            <div id="input">
+                <input type="text" placeholder="Enter your Username"> <br> <br>
+                <input type="password" placeholder="Enter the password"><br><br>
+                <input type="text" placeholder="enter the city name" list="suggestions">
+                <datalist id="suggestions">
+                    <option value="Mumbai"></option>
+                    <option value="Delhi"></option>
+                    <option value="Chennai"></option>
+                    <option value="Indore"></option>
+                </datalist>
+                <br><br>
+                <button>Log in </button>
+                <button>Sign up</button>
+                 <button type="reset">Reset</button>
+
+            </div>
+        </form>
+
+        <nav>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Answer</a></li>
+                <li><a href="">Recommendations</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <hr>
+    <main>
+        <p>Adam  &nbsp;
+            <a href="">Follow/Adam</a>
+        </p>
+        <h3>What is the highest salary of a cyber secuerity engineer..?</h3>
+        <button class="upvote">+upvote</button>
+        <button class="answer">answer</button>
+    </main>
+    <hr>
+
+    <main>
+        <p>Alis <a href="">Follow/Alis</a></p>
+        <h3>What is the highest salary of a prompt engineer..?</h3>
+        <button class="upvote">+upvote</button>
+        <button class="answer">answer</button>
+    </main>
+    <hr>
+
+    <main>
+        <p>Levis <a href="">Follow/levis</a></p>
+        <h3>What is the highest salary of a web developer.?</h3>
+        <button class="upvote">+upvote</button>
+        <button class="answer">answer</button>
+        <button id="hello">Questions ?</button>
+    </main>
+    <hr>
+
+    <footer>
+        <button>Submit</button> <br><br>
+    </footer>
+    <div class="id1">
+        <p>This is a Confirmation..</p>
+        <span>
+            <input type="radio" id="yes" name="agree">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="agree">
+            <label for="no">No</label>
+            <hr>
+        </span>
+    </div>
+
+    <div class="nth">
+        <p>This is 1 paragpraph..</p>
+        <p>This is 2 paragpraph..</p>
+        <p>This is 3 paragpraph..</p>
+        <p>This is 4 paragpraph..</p>
+        <p>This is 5 paragpraph..</p>
+        <p>This is 6 paragpraph..</p>
+        <hr>
+
+    </div>
+    <h4 class="myCLasss">Specificity</h4>
+</body>
+
+</html>

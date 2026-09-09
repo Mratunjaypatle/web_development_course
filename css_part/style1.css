@@ -1,0 +1,20 @@
+*
+{
+   font-family: sans-serif;
+  font-size: 25px;
+}
+
+#hello
+{
+     border: 2px solid black;
+}
+
+.hye
+{
+    border: 3px dotted black;
+}
+
+button 
+{
+    background-color: crimson;
+}
