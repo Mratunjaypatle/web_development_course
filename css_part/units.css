@@ -1,0 +1,31 @@
+.units
+{
+    background-color: aqua;
+    width: 900px;
+    height: 250px;
+    padding: 20px;
+}
+
+.unit2
+{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(32, 140, 167);
+}
+
+#unit3
+{
+    background-color: cornflowerblue;
+    font-size: 5em;
+}
+
+html 
+{
+    font-size: 16px;
+}
+
+pre
+{
+    font-size: 2rem;
+    /* 2rem * 16px   = 32px */
+}

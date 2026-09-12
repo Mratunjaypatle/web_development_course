@@ -51,3 +51,37 @@ h3
     background-color: rgb(57, 108, 139);
     color: aliceblue;
 }
+
+.upvote:hover
+{
+    background-color: rgb(141, 28, 85);
+    color: coral;
+    border: 2px solid white;
+    width: 200px;
+}
+
+.answer:active
+{
+    background-color: rgba(67, 0, 213, 0.291);
+    color: black;
+    border: 5px dotted pink;
+}
+
+p::selection
+{
+    background-color: crimson;
+    color: white;
+}
+
+h1::after
+{
+    content: "CSS";
+}
+ 
+/*
+hover 
+active 
+selection
+after 
+
+*/
