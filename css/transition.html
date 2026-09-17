@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: flex;
+            height: 10vh;
+        }
+        button
+        {
+            padding: 15px 15px;
+            border: 1px solid black;
+            border-radius: 12px;
+            width: 120px;
+            background-color: crimson;
+            color: white;
+            cursor: pointer;
+            transition: background-color 3s ease ;
+        }
+        button:hover
+        {
+           background-color: rgb(115, 24, 151);
+           color: black;
+        }
+        .box
+
+        {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            transition: width 5s linear , background-color 2s ease;
+            cursor: cell;
+        }
+
+        .box:active
+        {
+            width: 200px;
+            background-color: #105634;
+        }
+    </style>
+</head>
+<body>
+      <!-- <button class="animated-button">click me ..</button> -->
+    
+      <div class="box">
+
+      </div>
+</body>
+</html>

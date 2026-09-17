@@ -1,0 +1,34 @@
+JavaScript - It is a programming language . 
+It is versatile and world wide language . 
+It is used for both frontend and backend ..
+
+Frontend => ReactJs , NextJS , VueJS , AngularJS
+Backend => Nodejs , ExpressJS 
+DataBase => MongoDB
+
+variable => let , var , const 
+data type 
+
+what is data ? 
+information 
+employee -> 
+name , city  , salary , age , role  
+
+Rahul => Word  -> String
+Mumbai => Word  -> String 
+80000  => Numerical value -> Integer 
+23      => Integer
+Engineer => String 
+Gender -> M => Character  
+true , false boolean 
+a = [10,20,30] array
+obj = {name : "Mratunjay Patle"} // object 
+We have 3 keywords in JavaScript to declare any variable 
+let , const , var 
+
+// let can consist every type of data 
+// var is a functional scoped variable
+// const consist every type of data  but it can not be changed ..
+
+
+typeof -> is used to identify the data type of variable

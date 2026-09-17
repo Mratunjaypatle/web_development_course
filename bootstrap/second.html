@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <style>
+        #first {
+            border: 2px solid rgb(4, 3, 43);
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <div class="container" id="first">
+        <h1>Container page</h1>
+        <p>
+            Containers are the most basic layout element in Bootstrap and are required when using our default grid
+            system. Containers are used to contain, pad, and (sometimes) center the content within them. While
+            containers can be nested, most layouts do not require a nested container.
+        </p>
+    </div>
+
+    <div class="container text-center" style="border : 2px solid rgb(17, 76, 107) ; margin: 10px;">
+        <h1>Row </h1>
+        <div class="row align-items-end">
+            <div class="col">
+                First column
+            </div>
+            <div class="col">
+                Second column
+            </div>
+            <div class="col">
+                Third column
+            </div>
+        </div>
+
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">City</th>
+                <th scope="col">Role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Rahul</td>
+                <td>Mumbai</td>
+                <td>Engineer</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Sumit</td>
+                <td>Hyderabad</td>
+                <td>Consultant</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="container">
+        Image section
+
+        <!-- <img src="image.png" class=".img" alt="" width="200" height="200"> -->
+    </div>
+
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="image.png" class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s
+                    content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+</body>
+
+</html>
