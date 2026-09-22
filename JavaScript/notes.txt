@@ -32,3 +32,24 @@ let , const , var
 
 
 typeof -> is used to identify the data type of variable
+
+
+/* Operators is used to perform operations 
+ example = + , - , * , / , %
+ Types of operators 
+1 . Arithmetic Operator (+ , - , * , / , %)
+2. Unary Operator
+3. Assignment Operator
+4. Comparision Operator
+*/
+
+keywords for conditional statements.
+if 
+else if ; else if is similar to the if , using else if we check two conditions or more than two condition.
+else ; else is defined as when condition of if gets false , else is called and print msg.. 
+nested if 
+switch case 
+if(condition)
+{
+    logic...
+}

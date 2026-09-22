@@ -1,0 +1,7 @@
+Write a program to calculate all grades for students from A to D 
+marks > 90 -> A 
+marks > 70 -> B
+marks > 60  -> C
+marks > 45  -> D 
+marks > 33  -> Pass
+marks < 33  -> Fail
