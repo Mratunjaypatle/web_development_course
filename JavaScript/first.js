@@ -10,7 +10,7 @@ a[4] = 50
 //indexing   0  1  2  3
 let isPresent = true // boolean
 
-// key anond value 
+// key and value 
 let obj = {
     name : "Shruti" , 
     domain : "Sales Employee",

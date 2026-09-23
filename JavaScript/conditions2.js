@@ -56,3 +56,4 @@ if (color == "red") {
 
 // let word = prompt("Enter the word")
 // console.log(word);
+

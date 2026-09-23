@@ -5,3 +5,8 @@ marks > 60  -> C
 marks > 45  -> D 
 marks > 33  -> Pass
 marks < 33  -> Fail
+
+Odd or Even
+positive negative 
+
+ 
