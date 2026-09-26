@@ -57,7 +57,6 @@ console.log(repeatWord.repeat(3));
 let sentence = "I do coding everyday"
 console.log(sentence.split(" "));
 
-
 /* Methods that can be performed on an object 
   format -> string.method()
 

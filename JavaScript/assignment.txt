@@ -1,0 +1,20 @@
+Write a program to calculate all grades for students from A to D 
+marks > 90 -> A 
+marks > 70 -> B
+marks > 60  -> C
+marks > 45  -> D 
+marks > 33  -> Pass
+marks < 33  -> Fail
+
+Odd or Even
+positive negative 
+
+change array format using methods
+
+let months = ["january" , "february" , "march" , "april"]
+let months = ["may" , "june" , "july" , "august"]
+
+practice questions based on array and methods.
+
+1. WAP to get last n element of an array 
+ 

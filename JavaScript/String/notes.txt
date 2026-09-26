@@ -1,0 +1,7 @@
+length -> to calculate the length of the string
+toUpperCase -> to get string in upper case
+toLowerCase -> to get string in lower case
+trim -> removes whitespaces from both ends
+
+// String with arguements 
+// format for string with aruements StringName.method(args)
